@@ -42,7 +42,16 @@ void keyPressed() {
   if (key == 'r') {
    record = true;
   } else {
-  record = false;
+   record = false;
+  
   
   }
 }
+
+void mousePressed() {
+   record = true;
+}
+
+void mouseReleased(){
+  record = false;
+ }
